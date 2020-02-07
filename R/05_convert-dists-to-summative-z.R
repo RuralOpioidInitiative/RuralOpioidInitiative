@@ -1,17 +1,17 @@
 library(tidyverse)
 library(sf)
 
-dists <- read_csv("data-output/min-dists-to-zip-centroid.csv")
+dists <- read_csv("data-output/min-dists-to-zip-centroid-new.csv")
 
-names(dists) <- c("zip", "er", "fqhc", "hiv", "hcv", "moud_bup", "moud_met", "moud_naltrex", "nalox") # better to do this with rename...
+names(dists) <- c("zip", "er", "fqhc", "hiv", "hcv", "moud_bup", "moud_met", "moud_met_new", "moud_naltrex", "nalox") # better to do this with rename...
 
 zscores <- dists %>% 
   mutate(zip = as.character(zip)) %>% 
   mutate_if(is.numeric, scale)
 
 sum_zscores <- zscores %>% 
-  mutate(opiod_z = er + fqhc + moud_bup + moud_met + moud_naltrex + nalox,
-         hcv_z = fqhc + hcv + moud_bup + moud_met + moud_naltrex,
+  mutate(opiod_z = er + fqhc + moud_bup + moud_met_new + moud_naltrex + nalox,
+         hcv_z = fqhc + hcv + moud_bup + moud_met_new + moud_naltrex,
          hiv_z = fqhc + hiv + nalox,
          # + moud_bup + moud_met + moud_naltrex + moud_nalox
          )
@@ -27,5 +27,5 @@ zips_sf <- st_read("data-output/zips.gpkg")
 sum_zscores_sf <- right_join(sum_zscores, zips_sf, by = c("zip" = "ZCTA5CE10"))
 
 # Write out
-st_write(sum_zscores_sf, "data-output/sum_zscores.gpkg", delete_dsn = TRUE)
-st_write(sum_zscores_sf, "data-output/sum_zscores.shp", delete_dsn = TRUE)
+st_write(sum_zscores_sf, "data-output/sum_zscores_new.gpkg", delete_dsn = TRUE)
+st_write(sum_zscores_sf, "data-output/sum_zscores_new.shp", delete_dsn = TRUE)

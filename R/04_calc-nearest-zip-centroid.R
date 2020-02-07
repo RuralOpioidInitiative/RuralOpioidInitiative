@@ -17,6 +17,7 @@ fqhc <- st_read("data-output/01_fqhc.gpkg")
 hiv <- st_read("data-output/01_hiv_testing.gpkg")
 hcv <- st_read("data-output/01_hcv_testing.gpkg")
 meth <- st_read("data-output/01_meth.gpkg")
+meth_new <- st_read("data-output/01_meth-new.gpkg")
 nalox <- st_read("data-output/01_nalox.gpkg")
 naltrex <- st_read("data-output/01_naltrex.gpkg")
 
@@ -39,6 +40,8 @@ min_dists <- cbind(Zip = zips_sf$ZCTA5CE10,
                    `HCV Testing - Nearest Distance to Centroid (mi)` = get_min_dist(hcv),
                    `MOUD - Buprenorphine - Nearest Distance to Centroid (mi)` = get_min_dist(bup),
                    `MOUD - Methadone - Nearest Distance to Centroid (mi)` = get_min_dist(meth),
+                   `MOUD - Methadone (New Clinic) - Nearest Distance to Centroid (mi)` = get_min_dist(meth_new),
+                   
                    `MOUD - Naltrexone - Nearest Distance to Centroid (mi)` = get_min_dist(naltrex),
                    `Naloxone RX - Nearest Distance to Centroid (mi)` = get_min_dist(nalox)) %>% 
   as.data.frame(stringsAsFactors = FALSE)
@@ -46,4 +49,4 @@ min_dists <- cbind(Zip = zips_sf$ZCTA5CE10,
 
 # Save final version -------------------------------------------------------
 
-write_csv(min_dists, "data-output/min-dists-to-zip-centroid.csv")
+write_csv(min_dists, "data-output/min-dists-to-zip-centroid-new.csv")
