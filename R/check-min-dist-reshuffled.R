@@ -37,5 +37,25 @@ tm_shape(result) +
   tm_facets(sync = TRUE, ncol = 3) + 
   tm_layout(legend.position = c("RIGHT", "BOTTOM"))
 
+tm_shape(result) +
+  tm_polygons(c("real_meth","s1_meth","s2_meth"), style = "fixed", breaks = c(0, 5, 15, 100), palette = "Set1") +
+  tm_facets(sync = TRUE, ncol = 3) + 
+  tm_layout(legend.position = c("RIGHT", "BOTTOM"))
+
+tm_shape(result) +
+  tm_polygons(c("real_meth","s1_meth","s2_meth"), style = "fixed", breaks = c(0, 5, 10, 100), palette = "Set1") +
+  tm_facets(sync = TRUE, ncol = 3) + 
+  tm_layout(legend.position = c("RIGHT", "BOTTOM"))
+
+tm_shape(result) +
+  tm_polygons(c("real_bup","s1_bup","s2_bup"), style = "fixed", breaks = c(0, 5, 20, 100), palette = "Set1") +
+  tm_facets(sync = TRUE, ncol = 3) + 
+  tm_layout(legend.position = c("RIGHT", "BOTTOM"))
+
+tm_shape(result) +
+  tm_polygons(c("real_nal","s1_nal","s2_nal"), style = "fixed", breaks = c(0, 5, 20, 100), palette = "Set1") +
+  tm_facets(sync = TRUE, ncol = 3) + 
+  tm_layout(legend.position = c("RIGHT", "BOTTOM"))
+
 tm_shape(result) + tm_polygons("ratio", style = "quantile")
 
