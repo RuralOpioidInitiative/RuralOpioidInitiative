@@ -156,3 +156,8 @@ tmap_mode(mode = "plot")
 tm_shape(zips_IL) + tm_polygons("ratio", style = "quantile")
 
 
+atrisk_IL_abm <- atrisk_IL[atrisk_IL$GEOID %in% as.character(abm_zips_df$ZCTA5CE10),]
+sum(atrisk_IL_abm$MOUD_N_assign)
+sum(atrisk_IL_abm$MOUD_B_assign)
+sum(atrisk_IL_abm$MOUD_M_assign)
+
