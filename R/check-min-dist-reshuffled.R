@@ -2,13 +2,23 @@ library(sf)
 library(tidyverse)
 library(tmap)
 library(tmaptools)
+library(dplyr)
+library(readr)
+library(tigris)
 
+
+# Illinois boundary
+illinois <- tigris::states(cb = TRUE) %>%
+  st_as_sf() %>% 
+  filter(NAME == "Illinois") %>%
+  st_transform(32616)
+
+# minimum distance for real, reshuffle 1 and reshuffle 2
 result <- st_read("data-shared/min_dist_real_reshuffled.shp") %>% 
   st_set_crs(32616)
 
 tmap_mode(mode = "view")
 # tmap mode set to interactive viewing 
-tm_shape(zips_IL) + tm_polygons("ratio")
 
 result$zipcode <- as.character(result$zip)
 result <- right_join(atrisk_IL, result, by = c("GEOID" = "zipcode")) %>% 
@@ -42,7 +52,6 @@ tm_shape(illinois) +
             legend.outside = T,
             main.title = "Minimum Distance (miles) to MOUD - Buprenorphine")
 
-
 tm_shape(illinois) +
   tm_borders() + 
   tm_shape(result) +
@@ -56,6 +65,6 @@ tm_shape(illinois) +
             main.title = "Minimum Distance (miles) to MOUD - Naltrexone") +
   tm_basemap(server = "OpenStreetMap")
 
-
-tm_shape(result) + tm_polygons("ratio", style = "quantile")
+# plot for population at risk 
+tm_shape(zips_IL) + tm_polygons("ratio", style = "quantile")
 
