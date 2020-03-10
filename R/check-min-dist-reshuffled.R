@@ -21,7 +21,6 @@ tmap_mode("plot")
 tm_shape(illinois) +
 tm_borders() + 
 tm_shape(result) +
-  tm_basemap("Stamen.Watercolor") +
   tm_polygons(c("real_meth","s1_meth","s2_meth"), 
               title = "Distance (miles)",
               style = "fixed", breaks = c(0, 2, 10, 100), palette = "Set1") +
@@ -31,21 +30,32 @@ tm_shape(result) +
             legend.outside = T,
             main.title = "Minimum Distance (miles) to MOUD - Methadone")
 
+tm_shape(illinois) +
+  tm_borders() + 
   tm_shape(result) +
-  tm_polygons(c("real_bup","s1_bup","s2_bup"),
-              title = c("Real","Scenario 1","Scenario 2"),
+  tm_polygons(c("real_bup","s1_bup","s2_bup"), 
+              title = "Distance (miles)",
               style = "fixed", breaks = c(0, 5, 20, 100), palette = "Set1") +
   tm_facets(sync = TRUE, ncol = 3) + 
-  tm_layout(legend.position = c("RIGHT", "BOTTOM"), 
+  tm_layout(panel.show = T,
+            panel.labels = c("Real","Counterfactual 1","Counterfactual 2"),
+            legend.outside = T,
             main.title = "Minimum Distance (miles) to MOUD - Buprenorphine")
 
-tm_shape(result) +
-  tm_polygons(c("real_nal","s1_nal","s2_nal"),
-              title = c("Real","Scenario 1","Scenario 2"),
+
+tm_shape(illinois) +
+  tm_borders() + 
+  tm_shape(result) +
+  tm_polygons(c("real_nal","s1_nal","s2_nal"), 
+              title = "Distance (miles)",
               style = "fixed", breaks = c(0, 5, 20, 100), palette = "Set1") +
   tm_facets(sync = TRUE, ncol = 3) + 
-  tm_layout(legend.position = c("RIGHT", "BOTTOM"), 
-            main.title = "Minimum Distance (miles) to MOUD - Naltrexone")
+  tm_layout(panel.show = T,
+            panel.labels = c("Real","Counterfactual 1","Counterfactual 2"),
+            legend.outside = T,
+            main.title = "Minimum Distance (miles) to MOUD - Naltrexone") +
+  tm_basemap(server = "OpenStreetMap")
+
 
 tm_shape(result) + tm_polygons("ratio", style = "quantile")
 
