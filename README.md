@@ -3,7 +3,8 @@
 
 # Opioid Environment Policy Scan (OEPS) Database
 
-*Updated June 2021*
+# Rural opioid initiative fork
+*Updated July 2021
 
 ## About
 
