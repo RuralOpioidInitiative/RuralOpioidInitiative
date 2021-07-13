@@ -13,6 +13,14 @@ This repository stores scripts used to wrangle, clean, join, and visualize data 
 
 Contact Susan Paykin at spaykin at uchicago dot edu with any questions. 
 
+## Commit 1
+Forked opioid-policy-scan
+Made new changes to the file
+
+Attaching meeting notes to the file
+
+
+
 ## Documentation
 Please refer to the [Data Documentation](https://docs.google.com/document/d/18NPWpuUfFTrKll9_ERHzVDmpNCETTzwjJt_FsIvmSrc/edit?usp=sharing). 
 
