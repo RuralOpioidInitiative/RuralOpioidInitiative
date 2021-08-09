@@ -1,30 +1,59 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-# Opioid Environment Policy Scan (OEPS) Database
+# Drug Injection Surveillance and Care Enhancement for Rural Northern New England (DISCERNNE)
 
-## About
+## Rural Opioid Initiative
 
-The Opioid Environment Policy Scan is a database providing access to data at multiple spatial scales to help characterize the multi-dimensional risk environment impacting opioid use in justice populations across the United States. We used a risk environment framework ([Rhodes 2009](https://www.sciencedirect.com/science/article/pii/S095539590800203X?via%3Dihub)) to guide data selection for the Opioid Environment Policy Scan. Data were stratified into six spheres of influence: Policy, Health, Demographic, Economic, Physical Environment, and COVID-19. The warehouse includes 45 data variable constructs across spheres characterizing the opioid use risk environment across U.S. geographies and spatial scales at the Census tract, ZIP Code Tract Area (ZCTA), county, and state levels. 
+## Acknowledgement
+The original dataset was compiled by: 
+GeoDaCenter Opioid Environment Policy Scan (OEPS)
+Please ue the following link to access the original database: [OPES](https://github.com/GeoDaCenter/opioid-policy-scan)
 
-This repository stores scripts used to wrangle, clean, join, and visualize data for the Opioid Environment Policy Scan, available to the JCOIN Network through the JCOIN Data Commons. The [Documentation](https://docs.google.com/document/d/18NPWpuUfFTrKll9_ERHzVDmpNCETTzwjJt_FsIvmSrc/edit?usp=sharing) provides metadata and descriptions for variable constructs included in the Policy Scan. The Policy Scan will be further developed as a data visualization product to characterize the multi-dimensional risk environment impacting the opioid crisis in the United States.
+## About 
+### [DISCERNNE](https://grantome.com/grant/NIH/UG3-DA044830-01)
+This two- stage, mixed-methods study will examine the epidemiology of IDU, its infectious consequences, and service accessibility 
+among young persons who inject drugs (PWID) (UG3 phase) in 15 rural counties in Maine, New Hampshire and Vermont, and then implement 
+an integrated telemedicine approach to treat OUD and reduce HIV, HCV, STIs, major bacterial infections (e.g. infective endocarditis, 
+septic arthritis, osteomyelitis, epidural abscess) and overdose (UH3 phase). The UG3 phase will employ qualitative, quantitative, 
+social network, geospatial, and laboratory methods to characterize the risk environment and epidemiology of OUD, its infectious 
+complications, opioid overdose, risk behaviors, service use and needs in a respondent-driven sample (n=360) of young PWID in these 
+rural counties. An environmental assessment of policy and infrastructure will examine available services, needs and gaps. This phase 
+will also build capacity to collect and deliver specimens for centralized HCV transmission investigation and molecular epidemiologic 
+analysis. 
 
-Contact Susan Paykin at spaykin at uchicago dot edu with any questions. 
+In the UH3 phase, a Hybrid Type 1 implementation study will evaluate the effectiveness of a regionalized, integrated model 
+of expanded service delivery for rural PWID. Using a stepped wedge design, the UH3 study will roll-out expanded services into 
+primary care clinics and practices (PCCP) in these 15 rural northern New England counties using regional real-time tele-consultation, 
+assessment and triage for HIV, hepatitis and OUD; and virtual, expert-facilitated bi-weekly case conferences around key topics 
+(e.g., overdose prevention and HIV pre-exposure prophylaxis [PrEP]).
+
+PWID recruited during the UG3 phase in intervention counties will be recontacted and referred to these PCCP sites. Primary outcomes will be the proportion of PWID: 
+(1) with an initial assessment at a PCCP site (intake); 
+(2) with an initial visit who initiated any treatment service within 30 days (initiation?); 
+(3) who initiated then received 3 more services within 180 days of initiation (engagement?); and 
+(4) discussed and followed via telemedicine (?retention?). Process evaluation will assess barriers, facilitators,implementationproblemsandnecessaryadaptations.
+
+Secondary outcomes include the proportion of PWID who receive: HAV/HBV vaccination and STI testing; naloxone rescue kits; and OUD, HIV and HCV treatment, 
+including HIV suppression and sustained HCV response (SVR) among those who receive services. This project is uniquely responsive to RFA-DA-17-014 in that 
+it will provide in-depth understanding of high- risk rural PWID, inform community response strategies, and implement a comprehensive, integrated approach 
+to treat OUD, reduce overdose and infectious complications among PWID in the rural US.
+
+
+
 
 ## Documentation
 Please refer to the [Data Documentation](https://docs.google.com/document/d/18NPWpuUfFTrKll9_ERHzVDmpNCETTzwjJt_FsIvmSrc/edit?usp=sharing). 
+Make changes here
+
+
 
 ## Citation
 Marynia Kolak, Qinyun Lin, Susan Paykin, Moksha Menghaney, & Angela Li. (2021, May 11). GeoDaCenter/opioid-policy-scan: *Opioid Environment Policy Scan Data Warehouse* (Version v0.1-beta). Zenodo. http://doi.org/10.5281/zenodo.4747876
 
+Add additional citation for the DISCERNNE Team here
+
 ## Team
+Information on DISCERNNE team here
 
-This toolkit was developed for the [Justice Community Opioid Innovation Network (JCOIN)](https://heal.nih.gov/research/research-to-practice/jcoin) by [Marynia Kolak](https://github.com/Makosak), [Qinyun Lin](https://github.com/linqinyu), [Susan Paykin](https://github.com/spaykin), Moksha Menghaney, and Angela Li of the [Healthy Regions and Policies Lab](https://voices.uchicago.edu/herop/) and [Center for Spatial Data Science](https://spatial.uchicago.edu/) at the University of Chicago. 
-
-The University of Chicago serves as the JCOIN Methodology and Advanced Analytics Resource Center (MAARC),  providing data infrastructure and statistical and analytic expertise to support individual JCOIN studies and cross-site data synchronization. JCOIN is part of the NIH HEAL (Helping to End Addiction Long-term<sup>SM</sup>) Initiative. The [NIH HEAL Initiative<sup>SM</sup>](https://heal.nih.gov/) supports a wide range of programs to develop new or improved prevention and treatment strategies for opioid addiction. JCOIN conducts research to address gaps in Opioid Use Disorder (OUD) treatment and related service in a wide range of criminal justice settings, including jails, drug and other problem-solving courts, policing and diversion, re-entry, and probation and parole. 
-
-## Acknowledgements
-
-This research was supported by the National Institute on Drug Abuse, National Institutes of Health, through the NIH HEAL Initiative under award number UG3DA123456. The contents of this publication are solely the responsibility of the authors and do not necessarily represent the official views of the NIH, the Initiative, or the participating sites.
 
 ## Data Overview
 
