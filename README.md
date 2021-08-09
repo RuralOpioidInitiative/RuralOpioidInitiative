@@ -42,7 +42,8 @@ to treat OUD, reduce overdose and infectious complications among PWID in the rur
 
 ## Documentation
 Please refer to the [Data Documentation](https://docs.google.com/document/d/18NPWpuUfFTrKll9_ERHzVDmpNCETTzwjJt_FsIvmSrc/edit?usp=sharing). 
-<style> Make change here {color:red;}</style>
+Make changes here
+
 
 
 ## Citation
