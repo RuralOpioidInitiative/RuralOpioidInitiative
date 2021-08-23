@@ -2,6 +2,15 @@
 # Drug Injection Surveillance and Care Enhancement for Rural Northern New England (DISCERNNE)
 
 ## Rural Opioid Initiative
+To address the opioid and injection drug use crisis in rural America, the National Institute on Drug Abuse (NIDA), in partnership with the Appalachian Regional Commission (ARC), the Centers for Disease Control and Prevention (CDC) and the Substance Abuse and Mental Health Services Administration (SAMHSA), funded what is collectively known as the Rural Opioid Initiative (ROI) Research Consortium RFA. ROI consists of eight research teams centrally located in rural areas whose overarching aim is to help communities develop comprehensive approaches to prevent and treat outcomes related to substance use. NIDA additionally funded two consortium centers, the Next-Generation Sequencing Center for GHOSTing Hepatitis C Virus and the Rural Comorbidity and HIV consequences of Opioid use Research and Treatment Initiative Data Coordinating Center (DCC), to aid in this effort.
+
+Driven by a common goal to help support rural people who use drugs (PWUD) and their communities, ROI brings together expert physicians, epidemiologists, and behavioral health professionals from the substance use and infectious disease fields to:
+
+1. Build collaborations state and local communities and conduct research to assemble locally available data and conduct research to fill local data gaps (UG3 phase);
+2. Use findings from the rapid assessment phase to propose locally relevant intervention projects; and
+3. Implement the interventions over a period of three years (starting in 2020 - UH3 phase).
+
+![ROI Map_FinalwoLogos_wWV_20210325](https://user-images.githubusercontent.com/87339076/130512661-8065da9b-4e4b-4887-bb66-fdc1c268e772.png)
 
 ## Acknowledgement
 The original dataset was compiled by: 
