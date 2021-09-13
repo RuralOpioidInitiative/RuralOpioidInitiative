@@ -52,7 +52,7 @@ For more information about the individual variables, please refer to the data di
 | Drug-related death rate | Death rate from drug-related causes | CDC WONDER, 2019 10-year ave. | Health01 / [Drug-Related Death Rate](data_final/metadata/Health_DrugDeaths.md) | State, County | 
 | Hepatitis C infection rate | Hepatitis C infection rate | CDC NNDSS, 2018 5-year ave. | Health02 / [Hepatitis C Rate](data_final/metadata/HepC_rate.md) | State | 
 | Physicians | Number of Primary Care and Specialist Physicians | Dartmouth Atlas, 2010 | Health03 / [Physicians](data_final/metadata/Health_PCPs.md) | Tract, County, State | 
-| Access to MOUDs | Distance to nearest MOUD | US Census, SAMHSA, Vivitrol, 2020 | Access01 / [Access: MOUDs](/data_final/metadata/Access_MOUDs.md) | County, Tract, Zip | 
+| Access to MOUDs | Distance to nearest MOUD | US Census, SAMHSA, Vivitrol, 2020 | [Access01](https://github.com/DISCERNNE/RuralOpioidInitiative/blob/ROI_base/data_final/Access01_C.csv)  / [Access: MOUDs](/data_final/metadata/Access_MOUDs.md) | County, Tract, Zip | 
 | Access to Health Centers | Distance to nearest FQHC | US Census, US COVID Atlas, HRSA, 2020  | Access02 / [Access: FQHCs](/data_final/metadata/Access_FQHCs_MinDistance.md) | Tract, Zip | 
 | Access to Hospitals | Distance to nearest hospital | US Census, CovidCareMap, 2020 |  Access03 / [Access: Hospitals](/data_final/metadata/Acesss_Hospitals_MinDistance.md) | Tract, Zip |
 | Access to Mental Health Providers |  Distance to nearest mental health provider | US Census, SAMSHA 2020 |  Access04 / [Access: Mental Health Providers](data_final/metadata/Access_MentalHealth_MinDistance.md) | Tract, Zip |
