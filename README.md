@@ -44,19 +44,6 @@ For more information about the individual variables, please refer to the data di
 | Geographic Boundaries | State, County, Census Tract, Zip Code Tract Area (ZCTA) | US Census, 2018 | [Geographic Boundaries](data_final/metadata/GeographicBoundaries_2018.md) | State, County, Tract, Zip |
 | Crosswalk files | County, Census Tract, Zip Code Tract Area (ZCTA) | HUD’s Office of Policy Development and Research (PD&R) | [Crosswalk Files](data_final/metadata/crosswalk.md) | County, Tract, Zip |
 
-### Policy Variables
-| Variable Construct | Variable Proxy | Source | Metadata | Spatial Scale | 
-|:------------------ | :------------- | :----- | :------- | :------------ | 
-| Prison Incarceration Rates | Prison population rate and prison admission rate by gender and ethnicity | Vera Institute of Justice, 2016 | PS01 / [Prison Variables](data_final/metadata/Prison%20variables_2016.md) | County | 
-| Jail Incarceration Rates | Jail population rate by gender and ethnicity | Vera Institute of Justice, 2017 | PS02 / [Jail Variables](data_final/metadata/Jail%20variables_2017.md) | County |
-| Prescription Drug Monitoring Programs (PDMP) | Any PDMP; Operational PDMP; Must-access PDMP; Electronic PDMP | OPTIC, 2017 | PS03 / [PDMP](data_final/metadata/PDMP_2017.md) | State | 
-| Good Samaritan Laws | Any Good Samaritan Law; Good Samaritan Law protecting arrest | OPTIC, 2017 | PS04 / [GSL](data_final/metadata/GSL_2018.md) | State | 
-| Naloxone Access Laws |  Any Naloxone law; law allowing distribution through a standing or protocal order; law allowing pharmacists prescriptive authority | OPTIC, 2017 | PS05 / [NAL](data_final/metadata/NAL_2017.md) | State |  
-| Medicaid Expenditure | Total Medicaid spending | KFF, 2019 | PS06 / [MedExp](data_final/metadata/MedExp_2019.md) | State | 
-| Medicaid Expansion | Spending for adults who have enrolled through Medicaid expansion | KFF, 2018 | PS07 / [MedExpan](data_final/metadata/MedExpan_2018.md) | State | 
-| Syringe Services Laws | Laws clarifying legal status for syringe exchange, distribution, and possession programs | LawAtlas, 2019 | PS08 / [Syringe](data_final/metadata/Syringe.md) | State | 
-| Medical Marijuana Laws | Law authorizing adults to use medical marijuana | PDAPS, 2017 | PS09 / [MedMarijLaw](data_final/metadata/MedMarijLaw.md) | State |
-| State & Local Government Expenditures | Government spending on public health, welfare, public safety, and corrections | US Census, 2018 | PS11 / [Government Expenditures](/data_final/metadata/PublicExpenditures.md) | State, Local |
 
 <br>
 
@@ -116,13 +103,3 @@ For more information about the individual variables, please refer to the data di
 
 <br>
 
-### COVID Variables
-| Variable Construct | Variable Proxy | Source | Metadata | Spatial Scale | 
-|:------------------ | -------------- | ------ | -------- | ------------- | 
-| Essential Worker Jobs | Percentage of population employed in Essential Jobs as defined during the COVID-19 pandemic | ACS, 2014-2018 | EC02 / [Jobs by Occupation](/data_final/metadata/Job_Categories_byOccupation_2018.md) | State, County, Tract, Zip | 
-| Cumulative Case Count | Daily cumulative raw case count (01/21/20 - 03/03/2021) | The New York Times, 2021 | COVID01 / [COVID Variables](/data_final/metadata/COVID.md) | State, County | 
-| Adjusted Case Count per 100K | Daily cumulative adjusted case count per 100K population (01/21/20 - 03/03/2021) | The New York Times, 2021 | COVID02 / [COVID Variables](/data_final/metadata/COVID.md) | State, County |
-| 7-day Average Case Count | 7-day average case count (01/21/20 - 03/03/2021) | The New York Times, 2021 | COVID03 / [COVID Variables](/data_final/metadata/COVID.md) | State, County | 
-| Historical 7-day Average Adjusted Case Count per 100K | 7-day average adjusted case count per 100K population (01/21/20 - 03/03/2021)| The New York Times, 2021 | COVID04 / [COVID Variables](/data_final/metadata/COVID.md) | State, County | 
-
-##Creating a new branch
