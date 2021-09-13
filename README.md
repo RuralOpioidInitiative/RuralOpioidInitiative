@@ -24,9 +24,8 @@ Make changes here
 
 
 ## Citation
-Marynia Kolak, Qinyun Lin, Susan Paykin, Moksha Menghaney, & Angela Li. (2021, May 11). GeoDaCenter/opioid-policy-scan: *Opioid Environment Policy Scan Data Warehouse* (Version v0.1-beta). Zenodo. http://doi.org/10.5281/zenodo.4747876
 
-Add additional citation for the DISCERNNE Team here
+Add citation for the DISCERNNE TEAM here
 
 ## Team
 Information on DISCERNNE team here
