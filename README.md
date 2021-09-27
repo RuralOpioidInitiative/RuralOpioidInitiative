@@ -21,11 +21,9 @@ Please ue the following link to access the original database: [OPES](https://git
 Please refer to the [Data Documentation](https://docs.google.com/document/d/18NPWpuUfFTrKll9_ERHzVDmpNCETTzwjJt_FsIvmSrc/edit?usp=sharing). 
 Make changes here
 
+## Authors
+Shikhar Shrestha , Marynia Kolak, Jennifer Pustz, Susan Paykin, Angela Hetrick, Canyon Foot, Bill(?), Richard Jenkins, Bridget Whitney, and Thomas J. Stopka
 
-
-## Citation
-
-Add citation for the DISCERNNE TEAM here
 
 ## Team
 Information on DISCERNNE team here
