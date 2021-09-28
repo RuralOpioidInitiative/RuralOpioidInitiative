@@ -10,10 +10,13 @@ Driven by a common goal to help support rural people who use drugs (PWUD) and th
 
 ![ROI Map_FinalwoLogos_wWV_20210325](https://user-images.githubusercontent.com/87339076/130512661-8065da9b-4e4b-4887-bb66-fdc1c268e772.png)
 
+## Rurality Measures
+
+
 ## Acknowledgement
 The original dataset was compiled by: 
 GeoDaCenter Opioid Environment Policy Scan (OEPS)
-Please ue the following link to access the original database: [OPES](https://github.com/GeoDaCenter/opioid-policy-scan)
+Please ue the following link to access the original database: [OEPS](https://github.com/GeoDaCenter/opioid-policy-scan)
 
 ## About 
 
