@@ -3,7 +3,7 @@
 **Author**: Jennifer Pustz 
 
 ### Data Location: 
-Access02 at 2 spatial scales. Files can be found [here](/data_final).
+USDA test data variable lookups. Files can be found [here](/data_final).
 * Access02_T  
 * Access02_Z  
 
