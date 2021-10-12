@@ -28,6 +28,7 @@ All variables from this data source are available at the county level. Variables
 * FEA_FMRKTPTH18
 * FEA_VEG_FARMS12
 * FEA_VEG_ACRES12
+* FEA_VEG_ACRESPTH12
 * FEA_FRESHVEG_FARMS12
 * FEA_FRESHVEG_ACRES12
 * FEA_FRESHVEG_ACRESPTH12
