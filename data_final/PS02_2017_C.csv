@@ -1,4 +1,4 @@
-"","COUNTYFP","YFips","Year","State","CountyName","TtlJlPpr","FmlJlPpr","MlJlPpr","AapiJlPpr","BlckJlPpr","LtnxJlPpr","NtvJlPpr","WhtJlPpr","TtlJlAdmr","TtlJlPrtr","TtlJlPp","FmlJlPp","MlJlPp","AapiJlPp","BlckJlPp","LtnxJlPp","NtvJlPp","WhtJlPp","TtlJlAdm","TtlJlPrt"
+"objid","COUNTYFP","YFips","Year","State","CountyName","TtlJlPpr","FmlJlPpr","MlJlPpr","AapiJlPpr","BlckJlPpr","LtnxJlPpr","NtvJlPpr","WhtJlPpr","TtlJlAdmr","TtlJlPrtr","TtlJlPp","FmlJlPp","MlJlPp","AapiJlPp","BlckJlPp","LtnxJlPp","NtvJlPp","WhtJlPp","TtlJlAdm","TtlJlPrt"
 "1","01001",201701001,2017,"AL","Autauga County",453.9,135.14,711.4,0,645.16,195.5,557.05,279.87,2145.69,266.84,165,25,127,0,48,2,0.83,76,780,97
 "2","01003",201701003,2017,"AL","Baldwin County",476.27,160.46,796.73,460.36,1266.4,624.73,220.75,369.36,11350.3,368.75,629,109,511,9,166,37.64,2.34,406,14990,487
 "3","01005",201701005,2017,"AL","Barbour County",690.04,113.19,1020.18,0,123.05,1199.4,5545.45,1150.23,4848.94,261.1,111,8,92,0,10,8,3.66,82,780,42
