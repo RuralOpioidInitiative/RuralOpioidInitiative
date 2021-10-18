@@ -43,7 +43,7 @@ For more information about the individual variables, please refer to the data di
 
 ### 
 | Datasets | Spatial Scale |
-|:------------------ | :------------- | :----- | :------- | :------------ |
+|:-------- | :------------ |
 | Combined set 1 | County |
 | Combined set 2 | Census Tract |
 | Combined set 3 | ZIP code tabulation area |
