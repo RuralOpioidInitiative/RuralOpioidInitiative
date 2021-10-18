@@ -1,4 +1,4 @@
-,fips,name,state,SSP_count
+objid,fips,name,state,SSP_count
 1,01001,Autauga,Alabama,0
 2,01009,Blount,Alabama,0
 3,01017,Chambers,Alabama,0
@@ -1871,7 +1871,7 @@
 1870,19197,Wright,Iowa,0
 1871,39031,Coshocton,Ohio,0
 1872,39045,Fairfield,Ohio,0
-1873,35013,Doña Ana,New Mexico,0
+1873,35013,DoÃ±a Ana,New Mexico,0
 1874,35017,Grant,New Mexico,0
 1875,35037,Quay,New Mexico,0
 1876,35059,Union,New Mexico,0
