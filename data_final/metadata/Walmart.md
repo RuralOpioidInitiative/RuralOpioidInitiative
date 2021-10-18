@@ -108,8 +108,12 @@ N/A.
 ### References
 
 Federal Highway Administration. (2010). Interstate System Access Informational Guide. Washington, DC Retrieved from https://www.fhwa.dot.gov/design/interstate/pubs/access/access.pdf
+
 Federal Highway Administration. (2019). Interstate System. Retrieved from https://www.fhwa.dot.gov/programadmin/interstate.cfm
+
 United States Census Bureau. (2021). TIGER/Line Shapefiles Technical Documentation.  Retrieved from https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2021/TGRSHP2021_TechDoc.pdf
+
 Walmart. (2021a). About Us. Retrieved from https://corporate.walmart.com/our-story
+
 Walmart. (2021b). Our Business. Retrieved from https://corporate.walmart.com/our-story/our-business
 
