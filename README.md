@@ -8,8 +8,7 @@ Driven by a common goal to help support rural people who use drugs (PWUD) and th
 2. Use findings from the rapid assessment phase to propose locally relevant intervention projects; and
 3. Implement the interventions over a period of three years (starting in 2020 - UH3 phase).
 
-The resources presented here are the product of the Rurality Measures Work Group, which falls under the umbrella of the Rural Opioid Initiative and bring together a variety of measures to describe what rurality means in the context of the opioid crisis. The work group compiled a wide range of measures, traditional (Rural-Urban Continuum Codes) and non-traditional (number of Walmart stores per county or ZIP Code Tabulation Area (ZCTA), that reflect differences between rural and urban areas. Although some measures relate directly to the opioid crisis, such as number of syringe services programs per county or ZCTA, most can be applied to any research focused on rural/urban issues. These measures can be downloaded individually or as a group to be used for geospatial analysis or as covariates in statistical models. While the work group worked toward a comprehensive collection, we recognize that this is an ongoing conversation and put this compilation forward as a living document to define rurality.
-
+The resources presented here are the product of the Rurality Measures Work Group, which falls under the umbrella of the Rural Opioid Initiative and bring together a variety of measures to describe what rurality means in the context of the opioid crisis. The work group compiled a wide range of measures, traditional (Rural-Urban Continuum Codes) and non-traditional (number of Walmart stores per county or ZIP Code Tabulation Area (ZCTA), that reflect differences between rural and urban areas. Although some measures relate directly to the opioid crisis, such as number of syringe services programs per county or ZCTA, most can be applied to any research focused on rural/urban issues. These measures can be downloaded individually or as a group to be used for geospatial analysis or as covariates in statistical models. While the work group worked toward a comprehensive collection, we recognize that this is an ongoing conversation and put this compilation forward as a living document to define rurality. [What is Rurality?]
 
 ![ROI Map_FinalwoLogos_wWV_20210325](https://user-images.githubusercontent.com/87339076/130512661-8065da9b-4e4b-4887-bb66-fdc1c268e772.png)
 
@@ -41,11 +40,16 @@ For more information about the individual variables, please refer to the data di
 
 <br>
 
-### 
+### Datasets
 | Datasets | Spatial Scale |
 |:-------- | :------------ |
 | Combined set 1 | County |
 | Combined set 2 | Census Tract |
 | Combined set 3 | ZIP code tabulation area |
 
+### Data extraction codes
+| Platform |
+| :------- |
+| Python codes  |
+| R codes |
 <br>
