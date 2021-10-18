@@ -1,0 +1,19 @@
+ Syringe Services Programs (SSPs) in US counties and census zip code tabulation areas (ZCTAs). 
+ All data was scraped from https://www.nasen.org/map/ and shared in a de-identified format approved by NASEN's director.
+
+The files have a very simple set of variables.
+
+In SSP_zcta, there are two columns:
+
+ZCTA - Numeric 5-digit zip code
+SSP_count - The number of SSPs located within that zip code
+
+
+SSP_county has a similar format:
+
+fips - 4 or 5 digit county identifier
+name - County name
+state - County state
+SSP_count - The number of SSPs located within that county
+
+
