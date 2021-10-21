@@ -119,7 +119,9 @@ For more information about the individual variables, please refer to the data di
 | 7-day Average Case Count | 7-day average case count (01/21/20 - 03/03/2021) | The New York Times, 2021 | COVID03 / [COVID Variables](/data_final/metadata/COVID.md) | State, County | 
 | Historical 7-day Average Adjusted Case Count per 100K | 7-day average adjusted case count per 100K population (01/21/20 - 03/03/2021)| The New York Times, 2021 | COVID04 / [COVID Variables](/data_final/metadata/COVID.md) | State, County | 
 
-##Creating a new branch
-
+### Agriculture variables
+| Variable construct| Variable name | Source | Metadata | Spatial scale|
+|:------------------|---------------|--------|----------|--------------|
+| Cows per 100,000| argri_cow | SRC | varialbe/ text[/data_final/metadata/agri.md]
 
 
