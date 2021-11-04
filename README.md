@@ -27,8 +27,6 @@ Please refer to the [Data Documentation](https://docs.google.com/document/d/18NP
 
 ## Data Overview
 
-We have compiled a list of variables 
-
 For more information about the individual variables, please refer to the data dictionary in the complete [Documentation](https://docs.google.com/document/d/18NPWpuUfFTrKll9_ERHzVDmpNCETTzwjJt_FsIvmSrc/edit?usp=sharing).
 
 ### Geographic Boundaries
