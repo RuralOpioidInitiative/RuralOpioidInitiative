@@ -1,3 +1,6 @@
 theme: jekyll-theme-minimal
 markdown: GFM
 google-site-verification: google02580f589649a6eb.html
+header_pages:
+  - about.md
+  - portfolio.md
