@@ -41,16 +41,16 @@ For more information about the individual variables, please refer to the data di
 <br>
 
 ### Datasets
-| Datasets | Spatial Scale |
-|:-------- | :------------ |
-| Combined set 1 | [County](https://drive.google.com/file/d/1rLTCdZM8BHqlMyDYOMqgSKRWrQcXOFSW/view?usp=sharing) |
-| Combined set 2 | [Census Tract](https://drive.google.com/file/d/1qhjC_4khde-yZU6Zy5LmJdrT1neWO79S/view?usp=sharing) |
-| Combined set 3 | [ZIP code tabulation area](https://drive.google.com/file/d/1-AJ6Uo7fmlpeQMU-RDenmtbGX9hZOj4A/view?usp=sharing) |
+| Datasets | Spatial Scale | Metadata |
+|:-------- | :------------ | :--------|
+| Combined set 1 | [County](https://drive.google.com/file/d/1rLTCdZM8BHqlMyDYOMqgSKRWrQcXOFSW/view?usp=sharing) | [County level metadata](data_final/data_subset/metadata_subset_C) |
+| Combined set 2 | [Census Tract](https://drive.google.com/file/d/1qhjC_4khde-yZU6Zy5LmJdrT1neWO79S/view?usp=sharing) | [Census tract level metadata](data_final/data_subset/metadata_subset_T) |
+| Combined set 3 | [ZIP code tabulation area](https://drive.google.com/file/d/1-AJ6Uo7fmlpeQMU-RDenmtbGX9hZOj4A/view?usp=sharing) | [ZCTA level metadata](data_final/data_subset/metadata_subset_Z) |
 
 ### Data extraction codes
 | Platform |
 | :------- |
-| Python codes  |
+| [Python codes](https://github.com/SShresthaTufts/GithubRstudio.io/blob/main/GITHUB_ROI_data.ipynb)  |
 | R codes |
 <br>
 
