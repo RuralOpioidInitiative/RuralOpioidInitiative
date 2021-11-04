@@ -43,9 +43,9 @@ For more information about the individual variables, please refer to the data di
 ### Datasets
 | Datasets | Spatial Scale |
 |:-------- | :------------ |
-| Combined set 1 | [County] (https://drive.google.com/file/d/1rLTCdZM8BHqlMyDYOMqgSKRWrQcXOFSW/view?usp=sharing) |
-| Combined set 2 | [Census Tract] (https://drive.google.com/file/d/1qhjC_4khde-yZU6Zy5LmJdrT1neWO79S/view?usp=sharing) |
-| Combined set 3 | [ZIP code tabulation area] (https://drive.google.com/file/d/1-AJ6Uo7fmlpeQMU-RDenmtbGX9hZOj4A/view?usp=sharing) |
+| Combined set 1 | [County](https://drive.google.com/file/d/1rLTCdZM8BHqlMyDYOMqgSKRWrQcXOFSW/view?usp=sharing) |
+| Combined set 2 | [Census Tract](https://drive.google.com/file/d/1qhjC_4khde-yZU6Zy5LmJdrT1neWO79S/view?usp=sharing) |
+| Combined set 3 | [ZIP code tabulation area](https://drive.google.com/file/d/1-AJ6Uo7fmlpeQMU-RDenmtbGX9hZOj4A/view?usp=sharing) |
 
 ### Data extraction codes
 | Platform |
