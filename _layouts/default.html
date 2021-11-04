@@ -12,9 +12,19 @@
     <![endif]-->
     {% include head-custom.html %}
 <style>
-.wrapper{
-    width:100px;
-    margin:left;
+.wrapper {
+  max-width: calc(#{$content-width} - (#{$spacing-unit})*0.7);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  @extend %clearfix;
+
+  @media screen and (min-width: $on-large) {
+    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+  }
 }
 
 
