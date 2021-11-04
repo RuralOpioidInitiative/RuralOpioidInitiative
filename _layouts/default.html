@@ -13,18 +13,18 @@
     {% include head-custom.html %}
 
 <style>
-wrapper{
-  max-width: calc(#{$content-width}- (#{$spacing-unit}*0.7));
+.wrapper{
+  max-width: 500;
   margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit / 1.5;
-  padding-left: $spacing-unit / 1.5;
+  padding-right: $spacing-unit / 3;
+  padding-left: $spacing-unit / 3;
   @extend %clearfix;
 
   @media screen and (min-width: $on-large) {
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    max-width: 500;
+    padding-right: $spacing-unit/3;
+    padding-left: $spacing-unit/3;
   }
 }
 
