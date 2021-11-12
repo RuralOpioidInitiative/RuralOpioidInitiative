@@ -20,11 +20,6 @@ The original dataset was compiled by:
 GeoDaCenter Opioid Environment Policy Scan (OEPS)
 Please ue the following link to access the original database: [OEPS](https://github.com/GeoDaCenter/opioid-policy-scan)
 
-
-## Documentation
-Please refer to the [Data Documentation](https://docs.google.com/document/d/18NPWpuUfFTrKll9_ERHzVDmpNCETTzwjJt_FsIvmSrc/edit?usp=sharing). 
-
-
 ## Data Overview
 
 For more information about the individual variables, please refer to the data dictionary in the complete [Documentation](https://docs.google.com/document/d/18NPWpuUfFTrKll9_ERHzVDmpNCETTzwjJt_FsIvmSrc/edit?usp=sharing).
@@ -39,11 +34,11 @@ For more information about the individual variables, please refer to the data di
 <br>
 
 ### Datasets
-| Datasets | Spatial Scale | Metadata |
-|:-------- | :------------ | :--------|
-| Combined set 1 | [County](https://drive.google.com/file/d/1rLTCdZM8BHqlMyDYOMqgSKRWrQcXOFSW/view?usp=sharing) | [County level metadata](data_final/data_subset/metadata_subset_C.html) |
-| Combined set 2 | [Census Tract](https://drive.google.com/file/d/1qhjC_4khde-yZU6Zy5LmJdrT1neWO79S/view?usp=sharing) | [Census tract level metadata](data_final/data_subset/metadata_subset_T.html) |
-| Combined set 3 | [ZIP code tabulation area](https://drive.google.com/file/d/1-AJ6Uo7fmlpeQMU-RDenmtbGX9hZOj4A/view?usp=sharing) | [ZCTA level metadata](data_final/data_subset/metadata_subset_Z.html) |
+| Datasets | Spatial Scale and download link |
+|:-------- | :------------ |
+| Combined set 1 [(list of datasets)](data_final/data_subset/metadata_subset_C.html) | [County](https://drive.google.com/file/d/1rLTCdZM8BHqlMyDYOMqgSKRWrQcXOFSW/view?usp=sharing) | 
+| Combined set 2 [(list of datasets)](data_final/data_subset/metadata_subset_T.html) | [Census Tract](https://drive.google.com/file/d/1qhjC_4khde-yZU6Zy5LmJdrT1neWO79S/view?usp=sharing) | 
+| Combined set 3 [(list of datasets)](data_final/data_subset/metadata_subset_Z.html)| [ZIP code tabulation area](https://drive.google.com/file/d/1-AJ6Uo7fmlpeQMU-RDenmtbGX9hZOj4A/view?usp=sharing) |
 
 ### Data extraction codes
 | Platform |
