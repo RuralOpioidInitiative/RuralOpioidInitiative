@@ -1,9 +1,0 @@
-Author: Shikhar Shrestha
-Date: 11/4/2021
-Tufts University School of Medicine
-
-# Metadata for dataset consisting of a list of subset of the variables needed for rurality assessment at ZCTA level
-
-subset_list_zcta = ["Health01_Z", "Access01_Z", "Access02_Z","Access03_Z","Access04_Z","Access05_Z","DS01_2018_Z", "EC03_2018_Z", "BE02_RUCA_Z", "Within_5_Miles"]            
-Z_href_subset = [i for i in Z_href if any(b in i for b in subset_list_zcta)]
-
